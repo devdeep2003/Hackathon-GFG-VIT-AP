@@ -22,47 +22,46 @@ const Hero = () => {
                     
                     
                     >
-                    <h1>Connecting <br /> People and <br /> Healthcare</h1>
+                    <h1>Scribble <br /> Sense</h1>
                     </motion.h1>
                 </div>
 
 
 
                 <div className="flexColStart hero-des">
-                    <span className="secondaryText"> A bridge between people and healthcare</span>
-                    <span className="secondaryText">Efficient solution for an efficient society</span>
+                    <span className="secondaryText">An Effective Measure of Recognition</span>
+                    <span className="secondaryText"> of Handwritten Multilingual Texts</span>
                 </div>
 
-                <div className="flexCenter search-bar">
-                    <HiLocationMarker color="var(--blue)" size={25} />
-                    <input type="text"  />
-                    <button className="button">Search</button>
+                <div className="flexCenter upload-file">
+                    <input type="file"/>
+                    <button className="button">Upload</button>
                 </div>
 
                 <div className="flexCenter stats">
 
                     <div className="flexColCenter stat">
                         <span>
-                            <CountUp start = {8800} end = {9000} duration = {4}/>
+                            <CountUp start = {0} end = {20} duration = {4}/>
                             <span>+</span>
                         </span>
-                        <span className = "secondaryText">Patients affected</span>
+                        <span className = "secondaryText">Users</span>
                     </div>
 
                     <div className="flexColCenter stat">
                         <span>
-                            <CountUp start = {1950} end = {2000} duration = {4}/>
+                            <CountUp start = {0} end = {15} duration = {4}/>
                             <span>+</span>
                         </span>
-                        <span className = "secondaryText">No HC Access</span>
+                        <span className = "secondaryText">Total Files</span>
                     </div>
 
                     <div className="flexColCenter stat">
                         <span>
-                            <CountUp start = {950} end = {1000} duration = {4}/>
+                            <CountUp start = {0} end = {15} duration = {4}/>
                             <span>+</span>
                         </span>
-                        <span className = "secondaryText">Total Deaths</span>
+                        <span className = "secondaryText">90%+ Accuracy</span>
                     </div>
 
 
@@ -85,7 +84,7 @@ const Hero = () => {
                     type: "spring"
                 }}
                 className="image-container">
-                    <img src="./hero-image.jpg" alt="" />
+                    <img src="text_to_text.png" alt="" />
                     </motion.div>
                 
             </div>
@@ -95,3 +94,11 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+
+//ScribbleSense
+//An Effective Measure of Recognition of Handwritten Multilingual Texts
+//Users
+//Total Files
+//90%+ Accuracy

@@ -17,3 +17,10 @@
 .h-menu>*:hover{
     cursor: pointer;
 }
+
+#circular-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}

@@ -5,12 +5,12 @@ const Header = () => {
     <section className="h-wrapper">
         <div className="flexCenter paddings innerWidth h-container">
 
-            <img src="" alt="logo" width = {100} />
+            <img src="images.jpeg" alt="logo" width = {90} height={70} id="circular-image"/>
 
 
             <div className="flexCenter h-menu">
-                <a href="">AI Chatbot</a>
-                <a href="">Scheduler</a>
+         
+                <a href="#Languages">Languages Trained</a>
                 <a href="">Contact Us</a>
                 <a href="">Get Started</a>
                 <button className="button">
