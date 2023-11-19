@@ -1,3 +1,4 @@
+import { color } from 'framer-motion';
 import React from 'react';
 
 const Footer = () => {
@@ -28,7 +29,7 @@ const Footer = () => {
           <p>Aditya S Varanasi</p>
           <p>Shreyas S</p>
           <p>Deep Chakraborty</p>
-          <p>Harshvardhan Singh</p>
+          <p >Harshvardhan Singh</p>
           
         </div>
       </div>

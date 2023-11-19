@@ -1,16 +1,18 @@
 .hero-wrapper{
     color: white;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 7rem;
 }
 
 .hero-container{
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 0px;
 }
 
 .hero-left{
     gap: 3rem;
+    color: white;
 }
 
 .hero-title{
@@ -25,13 +27,13 @@
 }
 
 .orange-circle{
-    height: 4rem;
-    width: 4rem;
+    height: 20rem;
+    width: 20rem;
     background: var(--blue-gradient);
-    border-radius: 999px;
+    border-radius: 1000px;
     position: absolute;
-    right: 28%;
-    top: -10%;
+    right: -20%;
+    top: -120%;
     z-index: -1;
 
 }

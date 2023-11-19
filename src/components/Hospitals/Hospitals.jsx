@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {Swiper, SwiperSlide, useSwiper} from 'swiper/react'
 import "swiper/css"
 import "./Hospitals.css"
@@ -15,10 +16,11 @@ const Hospitals = () => {
             </div>
 
             <Swiper {...sliderSettings}>
-                
+               <SliderButtons></SliderButtons> 
                 {
                     data.map((card, i) => (
                         <SwiperSlide key={i}>
+                             
                             <div className="flexCentre r-card">
                                 <img src= {card.image} alt="Home" />
 
@@ -27,6 +29,7 @@ const Hospitals = () => {
                                 </span>
                                 <span class="primaryText">{card.name}</span> <br />
                             </div>
+                         
                         </SwiperSlide>
                         
 

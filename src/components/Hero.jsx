@@ -22,7 +22,7 @@ const Hero = () => {
                     
                     
                     >
-                    <h1>Scribble <br /> Sense</h1>
+                    <h1>Scribble <br />  Sense</h1>
                     </motion.h1>
                 </div>
 
@@ -33,10 +33,10 @@ const Hero = () => {
                     <span className="secondaryText"> of Handwritten Multilingual Texts</span>
                 </div>
 
-                <div className="flexCenter upload-file">
+                {/* <div className="flexCenter upload-file">
                     <input type="file"/>
                     <button className="button">Upload</button>
-                </div>
+                </div> */}
 
                 <div className="flexCenter stats">
 
